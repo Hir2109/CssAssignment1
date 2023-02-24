@@ -1,21 +1,12 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
-
-
-/* basic elements */
 html {
 	margin: 0;
 	padding: 0;
 	}
+
 nav ul li{
 	background-color: #fff;
 }
+
 body { 
 	font: 95% georgia, sans-serif;
 	line-height: 1.88889;
@@ -28,10 +19,12 @@ body {
 	text-shadow: #fff;
 	
 	}
+
 p { 
 	margin-top: 0; 
 	text-align: justify;
 	}
+
 h3 { 
 	font: italic 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
@@ -39,24 +32,27 @@ h3 {
 	color: black;
     font-weight: bold;
 	}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #B7A5DF;
 	}
+
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: #D4CDDC;
 	}
+
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: #5307f7;
 	}
+
 abbr {
 	border-bottom: none;
 	}
-
 
 /* specific divs */
 .page-wrapper { 
@@ -72,10 +68,10 @@ abbr {
 	width: 100%;
 	}
 
-
 header h2 { 
 	text-align: center;
 	}
+
 header h1 {
     text-align: center;
     font-style: italic;
@@ -91,6 +87,7 @@ header h1 {
 	width: 160px; 
 	float: left;
 	}
+
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
@@ -111,9 +108,11 @@ footer {
 	word-spacing: 10px;
 	background-color: #e5def6;
 	}
+
 .footer span {
 		padding: 5px;
 	}
+
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
@@ -124,6 +123,7 @@ footer a:link, footer a:visited {
 	top: 0; 
 	right: 0;
 	}
+
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
 	background-color: #c0defb;
@@ -132,6 +132,7 @@ footer a:link, footer a:visited {
 	width: 130px; 
 	border: 2px solid #000;
 	}
+
 .sidebar h3.select { 
 	/*background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; */
 	margin: 10px 0 5px 0; 
@@ -149,6 +150,7 @@ footer a:link, footer a:visited {
 	margin: 0;
 	padding: 0;
 	}
+
 .sidebar li {
 	line-height: 1.3em; 
 	/* background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center;  */
@@ -157,9 +159,11 @@ footer a:link, footer a:visited {
 	margin-bottom: 5px;
 	list-style-type: none;
 	}
+
 .sidebar li a:link {
 	color: #988F5E;
 	}
+
 .sidebar li a:visited {
 	color: #B3AE94;
 	}
@@ -177,18 +181,20 @@ header {
 	background-image: linear-gradient(to right, #bedef8, #f5d1b4);;
 }
 
-#zen-benefits, #zen-requirements{
+#zen-benefits, #zen-requirements {
     color: #fff;
-
 }
+
 #zen-summary {
     border: 2px solid #000; 
     background-color: #fff;
     padding: 10px; 
 }
+
 #zen-preamble {
 	color: #fff;
 }
+
 #zen-explanation {
 	color: #fff;
 }
@@ -196,18 +202,23 @@ header {
 #zen-participation {
 	color: #fff;
 }
+
 .sidebar .zen-resources {
 	background-color: #fff;
 }
+
 .sidebar h3.resources {
 	background: none;
 }
+
 #zen-preamble, #zen-participation {
 	color: black;
 }
-h3:nth-of-type(2){
+
+h3:nth-of-type(2) {
 	padding: 1px solid #fff;
 }
+
 #zen-supporting >div 	{	
 	padding-left: 10px; 
 	margin-bottom: 40px;
